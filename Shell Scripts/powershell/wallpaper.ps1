@@ -70,7 +70,7 @@ Function Update-Wallpaper {
 $fn = Get-Random -Minimum 1 -Maximum 6
 
 # Downloads a random cat pic from the Assets folder
-Invoke-WebRequest -Uri https://raw.githubusercontent.com/SIAMRAHMAN000/Board-Payloads/main/Assets/cat$fn.jpg -OutFile $env:TEMP\15791817.jpg
+Invoke-WebRequest -Uri https://raw.githubusercontent.com/SIAMRAHMAN000/Board-Payloads/main/Assets/cat1.jpg -OutFile $env:TEMP\15791817.jpg
 
 # For some reason you have to do it two times or else it acts weirdly
 Update-Wallpaper -Path $env:TEMP\15791817.jpg -Style Stretch
